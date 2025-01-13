@@ -108,6 +108,10 @@ main{
     /* align-items: center; */
     gap: 150px;
 }
+.feature-container > h3{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
 
 .card{
     border-radius: 8px;
@@ -118,6 +122,7 @@ main{
 }
 .card > h3{
     font-size: 1.25rem;
+    
 }
 
 .btn-exp{
@@ -140,6 +145,21 @@ main{
 }
 
 
+/* some facts */
+
+.card-container1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.card1{
+    border: 2px solid #FF900E;
+    padding: 35px 45px;
+    border-radius: 8px;
+}
+
 
 /* responsive mobile */
 
@@ -147,9 +167,9 @@ main{
     
     .header,
     .quick-feature,
-    .feature{
+    .feature,
+    .card-container1{
         flex-direction: column;
-        /* text-align: center; */
     }
     .banner-text{
         margin: 0px 30px;
@@ -167,6 +187,9 @@ main{
         position: relative;
         bottom: 1git00px;
         right: auto;
+    }
+    .card-container1{
+        gap: 20px;
     }
 
 }
